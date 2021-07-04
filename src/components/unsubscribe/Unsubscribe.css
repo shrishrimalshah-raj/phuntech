@@ -1,0 +1,70 @@
+
+main {
+	margin: auto;
+}
+
+.modal {
+	background: #e55039;
+	color: #FFF;
+	width: 60rem;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10rem 4rem 4rem 4rem;
+	position: relative;
+}
+
+.modal__icon {
+	position: absolute;
+	top: -3rem;
+	left: 50%;
+	margin-left: -165px;
+	background: #e55039;
+	padding: 3rem 12rem 0 12rem;
+	border-radius: 50%;
+}
+
+.modal__heading {
+	text-transform: uppercase;
+	font-size: 2.6rem;
+}
+
+.modal p {
+	font-size: 1.5rem;
+}
+
+.email-box {
+	position: absolute;
+	bottom: -2rem;
+	left: 50%;
+	margin-left: -20rem;
+	width: 40rem;
+}
+
+.resubscribe-box__input {
+	color: #FFF;
+	display: block;
+	width: 100%;
+	height: 4.5rem;
+	border-radius: 10px;
+	border: 1px solid #FFF;
+	font-size: 1.9rem;
+	padding: 1rem;
+    background-color: #2D2D2D;
+}
+
+@media only screen and (max-width: 600px) {
+	.modal {
+		width: 30rem;
+	}
+
+	.modal__icon {
+		margin-left: -105px;
+		padding: 3rem 6rem 0 6rem;
+		border-radius: 50%;
+	}
+
+	.email-box {
+		margin-left: -12.5rem;
+		width: 25rem;
+	}
+}
