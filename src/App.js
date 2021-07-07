@@ -1,5 +1,5 @@
 import { ToastProvider } from "react-toast-notifications";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 import Subscribe from "./components/subscribe/Subscribe";
 import Unsubscribe from "./components/unsubscribe/Unsubscribe";
